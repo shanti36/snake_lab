@@ -21,7 +21,6 @@ WASD = {"w": "Up", "s": "Down", "a": "Left", "d": "Right"}
 
 
 class SnakeGame:
-    """Вся игра в одном классе. self - это сама игра, в self хранится её состояние."""
 
     def __init__(self, root):
         self.root = root
